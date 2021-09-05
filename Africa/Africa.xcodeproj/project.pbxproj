@@ -12,6 +12,9 @@
 		347F5F4D26E4E75E00628A24 /* CodableBundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F4C26E4E75E00628A24 /* CodableBundleExtensions.swift */; };
 		347F5F4F26E4E9DF00628A24 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F4E26E4E9DF00628A24 /* AnimalListItemView.swift */; };
 		347F5F5126E4EB0B00628A24 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F5026E4EB0B00628A24 /* AnimalModel.swift */; };
+		347F5F5326E4ED9600628A24 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F5226E4ED9600628A24 /* AnimalDetailView.swift */; };
+		347F5F5526E4F35B00628A24 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F5426E4F35B00628A24 /* HeadingView.swift */; };
+		347F5F5726E4F48B00628A24 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F5F5626E4F48B00628A24 /* InsetGalleryView.swift */; };
 		34B435B726E4B8BB0027FAAF /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B435B626E4B8BB0027FAAF /* AfricaApp.swift */; };
 		34B435B926E4B8BB0027FAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B435B826E4B8BB0027FAAF /* ContentView.swift */; };
 		34B435BB26E4B8BC0027FAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B435BA26E4B8BC0027FAAF /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		347F5F4C26E4E75E00628A24 /* CodableBundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtensions.swift; sourceTree = "<group>"; };
 		347F5F4E26E4E9DF00628A24 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		347F5F5026E4EB0B00628A24 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		347F5F5226E4ED9600628A24 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		347F5F5426E4F35B00628A24 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		347F5F5626E4F48B00628A24 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		34B435B326E4B8BB0027FAAF /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B435B626E4B8BB0027FAAF /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		34B435B826E4B8BB0027FAAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 			children = (
 				347F5F4626E4E5F700628A24 /* CoverImageView.swift */,
 				347F5F4E26E4E9DF00628A24 /* AnimalListItemView.swift */,
+				347F5F5226E4ED9600628A24 /* AnimalDetailView.swift */,
+				347F5F5426E4F35B00628A24 /* HeadingView.swift */,
+				347F5F5626E4F48B00628A24 /* InsetGalleryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,12 +283,15 @@
 				34B435CF26E4B9BB0027FAAF /* MainView.swift in Sources */,
 				347F5F4726E4E5F700628A24 /* CoverImageView.swift in Sources */,
 				347F5F4A26E4E6D300628A24 /* CoverImageModel.swift in Sources */,
+				347F5F5326E4ED9600628A24 /* AnimalDetailView.swift in Sources */,
 				347F5F5126E4EB0B00628A24 /* AnimalModel.swift in Sources */,
 				34B435CB26E4B98A0027FAAF /* MapView.swift in Sources */,
 				34B435B726E4B8BB0027FAAF /* AfricaApp.swift in Sources */,
 				347F5F4D26E4E75E00628A24 /* CodableBundleExtensions.swift in Sources */,
 				34B435C926E4B9710027FAAF /* VideoListView.swift in Sources */,
+				347F5F5726E4F48B00628A24 /* InsetGalleryView.swift in Sources */,
 				34B435CD26E4B99F0027FAAF /* GalleryView.swift in Sources */,
+				347F5F5526E4F35B00628A24 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
