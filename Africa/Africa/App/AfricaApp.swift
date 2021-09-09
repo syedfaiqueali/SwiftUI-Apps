@@ -11,7 +11,6 @@ import SwiftUI
 struct AfricaApp: App {
     var body: some Scene {
         WindowGroup {
-            // hello
             MainView()
         }
     }
