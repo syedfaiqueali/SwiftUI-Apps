@@ -41,6 +41,7 @@
 		34D1201626EBBA13009337C1 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1201526EBBA13009337C1 /* VideoPlayerHelper.swift */; };
 		34D1201826EBBD31009337C1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1201726EBBD31009337C1 /* LocationModel.swift */; };
 		34D1201A26EBC00C009337C1 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1201926EBC00C009337C1 /* MapAnnotationView.swift */; };
+		34D1201C26EBC3D7009337C1 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1201B26EBC3D7009337C1 /* MotionAnimationView.swift */; };
 		34EF4E2726E65E7300F68F9C /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF4E2626E65E7300F68F9C /* InsetFactView.swift */; };
 		34EF4E2926E660A700F68F9C /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF4E2826E660A700F68F9C /* InsetMapView.swift */; };
 		34EF4E2B26E6637E00F68F9C /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF4E2A26E6637E00F68F9C /* ExternalWebLinkView.swift */; };
@@ -85,6 +86,7 @@
 		34D1201526EBBA13009337C1 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		34D1201726EBBD31009337C1 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		34D1201926EBC00C009337C1 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		34D1201B26EBC3D7009337C1 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		34EF4E2626E65E7300F68F9C /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		34EF4E2826E660A700F68F9C /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		34EF4E2A26E6637E00F68F9C /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				34F0B1AA26E7D08B0022524E /* VideoListItemView.swift */,
 				34D1201226EBB93F009337C1 /* VideoPlayerView.swift */,
 				34D1201926EBC00C009337C1 /* MapAnnotationView.swift */,
+				34D1201B26EBC3D7009337C1 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				347F5F5726E4F48B00628A24 /* InsetGalleryView.swift in Sources */,
 				34F0B1AB26E7D08B0022524E /* VideoListItemView.swift in Sources */,
 				34B435CD26E4B99F0027FAAF /* GalleryView.swift in Sources */,
+				34D1201C26EBC3D7009337C1 /* MotionAnimationView.swift in Sources */,
 				347F5F5526E4F35B00628A24 /* HeadingView.swift in Sources */,
 				34D1201326EBB93F009337C1 /* VideoPlayerView.swift in Sources */,
 			);
