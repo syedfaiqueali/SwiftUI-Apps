@@ -47,6 +47,7 @@
 		34EF4E2B26E6637E00F68F9C /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EF4E2A26E6637E00F68F9C /* ExternalWebLinkView.swift */; };
 		34F0B1A926E7D0350022524E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0B1A826E7D0350022524E /* VideoModel.swift */; };
 		34F0B1AB26E7D08B0022524E /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F0B1AA26E7D08B0022524E /* VideoListItemView.swift */; };
+		34F69FC626EE5E080008B2EA /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F69FC526EE5E080008B2EA /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		34EF4E2A26E6637E00F68F9C /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		34F0B1A826E7D0350022524E /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		34F0B1AA26E7D08B0022524E /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		34F69FC526EE5E080008B2EA /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				34D1201226EBB93F009337C1 /* VideoPlayerView.swift */,
 				34D1201926EBC00C009337C1 /* MapAnnotationView.swift */,
 				34D1201B26EBC3D7009337C1 /* MotionAnimationView.swift */,
+				34F69FC526EE5E080008B2EA /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				34F0B1A926E7D0350022524E /* VideoModel.swift in Sources */,
 				34B435C926E4B9710027FAAF /* VideoListView.swift in Sources */,
 				34D1201826EBBD31009337C1 /* LocationModel.swift in Sources */,
+				34F69FC626EE5E080008B2EA /* AnimalGridItemView.swift in Sources */,
 				347F5F5726E4F48B00628A24 /* InsetGalleryView.swift in Sources */,
 				34F0B1AB26E7D08B0022524E /* VideoListItemView.swift in Sources */,
 				34B435CD26E4B99F0027FAAF /* GalleryView.swift in Sources */,
