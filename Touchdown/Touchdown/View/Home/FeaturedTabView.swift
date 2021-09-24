@@ -16,7 +16,7 @@ struct FeaturedTabView: View {
                     .padding(.horizontal, 15)
             }
         } //: TAB
-        .frame(height: 250)
+        .frame(height: 235)
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
 }
