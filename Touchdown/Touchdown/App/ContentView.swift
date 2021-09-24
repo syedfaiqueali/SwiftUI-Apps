@@ -23,11 +23,23 @@ struct ContentView: View {
                 
                 ScrollView(.vertical, showsIndicators: false, content: {
                     VStack(spacing: 0) {
+                        //1
                         FeaturedTabView()
                             .padding(.vertical, 20)
                         
+                        //2
                         CategoryGridView()
                         
+                        //3
+                        TitleView(title: "Helmets")
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach(products) {product in
+                                ProductItemView(product: product)
+                            } //: LOOP
+                        }) //: GRID
+                        .padding(15)
+                        
+                        //4
                         FooterView()
                             .padding(.horizontal)
                     } //: VSTACK
