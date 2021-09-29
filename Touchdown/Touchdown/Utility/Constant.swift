@@ -26,6 +26,7 @@ var gridLayout: [GridItem] {
 }
 
 //UX
+let feedback = UIImpactFeedbackGenerator(style: .medium) //for haptics
 
 //API
 

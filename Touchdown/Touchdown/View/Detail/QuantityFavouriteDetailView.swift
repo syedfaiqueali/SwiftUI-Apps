@@ -28,6 +28,7 @@ struct QuantityFavouriteDetailView: View {
             
             Button(action: {
                 if counter < 100 {
+                    feedback.impactOccurred() //haptics
                     counter += 1
                 }
             }, label: {
@@ -36,7 +37,9 @@ struct QuantityFavouriteDetailView: View {
             
             Spacer()
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {
+                feedback.impactOccurred() //haptics
+            }, label: {
                 Image(systemName: "heart.circle")
                     .foregroundColor(.pink)
             })
