@@ -17,5 +17,10 @@ let itemFormatter: DateFormatter = {
 
 
 // MARK:- UI
+var backgroundGradient: LinearGradient {
+    return LinearGradient(gradient: Gradient(colors: [Color.pink, Color.blue]),
+                          startPoint: .top,
+                          endPoint: .bottomTrailing)
+}
 
 // MARK:- UX
