@@ -21,6 +21,8 @@
 		34A2D58227061533008E5B80 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D57F27061533008E5B80 /* sound-tap.mp3 */; };
 		34A2D58327061533008E5B80 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D58027061533008E5B80 /* sound-ding.mp3 */; };
 		34A2D58427061533008E5B80 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D58127061533008E5B80 /* sound-rise.mp3 */; };
+		34D8F98027077B4D002329CE /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8F97F27077B4D002329CE /* ListRowItemView.swift */; };
+		34D8F98227077E3F002329CE /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8F98127077E3F002329CE /* CheckboxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		34A2D57F27061533008E5B80 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		34A2D58027061533008E5B80 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		34A2D58127061533008E5B80 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		34D8F97F27077B4D002329CE /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		34D8F98127077E3F002329CE /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				340A25882706E2650080E3C2 /* BackgroundImageView.swift */,
 				34A0A6722706F04400AB1B49 /* NewTaskItemView.swift */,
 				34A0A6742706F69800AB1B49 /* BlankView.swift */,
+				34D8F97F27077B4D002329CE /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		34A2D58927061570008E5B80 /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				34D8F98127077E3F002329CE /* CheckboxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 				340A25872706DF790080E3C2 /* HideKeyboardExtension.swift in Sources */,
 				34A0A6752706F69800AB1B49 /* BlankView.swift in Sources */,
 				340A25852706DADE0080E3C2 /* Constant.swift in Sources */,
+				34D8F98027077B4D002329CE /* ListRowItemView.swift in Sources */,
 				34A2D578270614A3008E5B80 /* Devote.xcdatamodeld in Sources */,
 				34A2D56C270614A2008E5B80 /* DevoteApp.swift in Sources */,
+				34D8F98227077E3F002329CE /* CheckboxStyle.swift in Sources */,
 				34A0A6732706F04400AB1B49 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
