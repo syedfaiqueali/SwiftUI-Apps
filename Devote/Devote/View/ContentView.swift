@@ -10,6 +10,11 @@ import CoreData
 
 struct ContentView: View {
     // MARK:- PROPERTY
+    @State var task: String = ""
+    
+    private var isButtonDisabled: Bool {
+        task.isEmpty
+    }
     
     // FETCHING DATA
     @Environment(\.managedObjectContext) private var viewContext
@@ -24,6 +29,9 @@ struct ContentView: View {
         withAnimation {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
+            newItem.task = task
+            newItem.completion = false
+            newItem.id = UUID()
 
             do {
                 try viewContext.save()
@@ -31,6 +39,10 @@ struct ContentView: View {
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
+            
+            //reset textfield
+            task = ""
+            hideKeyboard()
         }
     }
 
@@ -50,23 +62,52 @@ struct ContentView: View {
     // MARK:- BODY
     var body: some View {
         NavigationView {
-            List {
-                ForEach(items) { item in
-                    Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                }
-                .onDelete(perform: deleteItems)
-            } //: LIST
+            VStack {
+                VStack(spacing: 16) {
+                    TextField("New Task", text: $task)
+                        .padding()
+                        .background(
+                            Color(UIColor.systemGray6)
+                        )
+                    
+                    Button(action: {
+                        addItem()
+                    }, label: {
+                        Spacer()
+                        Text("SAVE")
+                        Spacer()
+                    })
+                    .disabled(isButtonDisabled)
+                    .padding()
+                    .font(.headline)
+                    .foregroundColor(Color.white)
+                    .background(isButtonDisabled ? Color.gray : Color.pink)
+                    .cornerRadius(10)
+                } //: VSTACK
+                .padding()
+                
+                List {
+                    ForEach(items) { item in
+                        VStack(alignment: .leading) {
+                            Text(item.task ?? "")
+                                .font(.headline)
+                                .fontWeight(.bold)
+                            
+                            Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                                .font(.footnote)
+                                .foregroundColor(.gray)
+                        } //: LIST ITEM
+                    }
+                    .onDelete(perform: deleteItems)
+                } //: LIST
+            } //: VSTACK
+            .navigationBarTitle("Daily Task", displayMode: .large)
             .toolbar {
                 #if os(iOS)
-                ToolbarItem(placement: .navigationBarLeading) {
+                ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 #endif
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
             } //: TOOLBAR
         } //: NAVIGATION
     }
