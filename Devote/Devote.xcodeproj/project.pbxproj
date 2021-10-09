@@ -21,6 +21,7 @@
 		34A2D58227061533008E5B80 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D57F27061533008E5B80 /* sound-tap.mp3 */; };
 		34A2D58327061533008E5B80 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D58027061533008E5B80 /* sound-ding.mp3 */; };
 		34A2D58427061533008E5B80 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34A2D58127061533008E5B80 /* sound-rise.mp3 */; };
+		34C429512711C947006AC02C /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C429502711C947006AC02C /* SoundPlayer.swift */; };
 		34D8F98027077B4D002329CE /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8F97F27077B4D002329CE /* ListRowItemView.swift */; };
 		34D8F98227077E3F002329CE /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8F98127077E3F002329CE /* CheckboxStyle.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		34A2D57F27061533008E5B80 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		34A2D58027061533008E5B80 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		34A2D58127061533008E5B80 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		34C429502711C947006AC02C /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		34D8F97F27077B4D002329CE /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		34D8F98127077E3F002329CE /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				340A25842706DADE0080E3C2 /* Constant.swift */,
+				34C429502711C947006AC02C /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				34A2D578270614A3008E5B80 /* Devote.xcdatamodeld in Sources */,
 				34A2D56C270614A2008E5B80 /* DevoteApp.swift in Sources */,
 				34D8F98227077E3F002329CE /* CheckboxStyle.swift in Sources */,
+				34C429512711C947006AC02C /* SoundPlayer.swift in Sources */,
 				34A0A6732706F04400AB1B49 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
