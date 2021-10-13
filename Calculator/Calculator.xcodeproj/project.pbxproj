@@ -15,6 +15,7 @@
 		347A4CF82715710900E27F3A /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A4CF72715710900E27F3A /* CustomShape.swift */; };
 		347A4CFA27157C4300E27F3A /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A4CF927157C4300E27F3A /* ContentView2.swift */; };
 		347A4CFC271582E800E27F3A /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347A4CFB271582E800E27F3A /* ContentView3.swift */; };
+		34CC9C2727159EF200532E1E /* CustomListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC9C2627159EF200532E1E /* CustomListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		347A4CF72715710900E27F3A /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		347A4CF927157C4300E27F3A /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		347A4CFB271582E800E27F3A /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		34CC9C2627159EF200532E1E /* CustomListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		347A4CF2271567DE00E27F3A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34CC9C2627159EF200532E1E /* CustomListCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				347A4CE42715666100E27F3A /* ContentView.swift in Sources */,
 				347A4CE22715666100E27F3A /* CalculatorApp.swift in Sources */,
 				347A4CFA27157C4300E27F3A /* ContentView2.swift in Sources */,
+				34CC9C2727159EF200532E1E /* CustomListCellView.swift in Sources */,
 				347A4CF52715683B00E27F3A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
