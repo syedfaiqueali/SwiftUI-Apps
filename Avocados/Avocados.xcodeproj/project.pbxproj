@@ -11,6 +11,10 @@
 		341189AA271D553F00E9F70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341189A9271D553F00E9F70E /* ContentView.swift */; };
 		341189AC271D554000E9F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341189AB271D554000E9F70E /* Assets.xcassets */; };
 		341189AF271D554000E9F70E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341189AE271D554000E9F70E /* Preview Assets.xcassets */; };
+		346CD90D274E4613001B985B /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD90C274E4613001B985B /* AvocadosView.swift */; };
+		346CD911274E4672001B985B /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD910274E4672001B985B /* RipeningStagesView.swift */; };
+		346CD915274E46B2001B985B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD914274E46B2001B985B /* SettingsView.swift */; };
+		346CD917274E46DD001B985B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD916274E46DD001B985B /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		341189AB271D554000E9F70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		341189AE271D554000E9F70E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		341189B0271D554000E9F70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346CD90C274E4613001B985B /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		346CD910274E4672001B985B /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		346CD914274E46B2001B985B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		346CD916274E46DD001B985B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				341189A7271D553F00E9F70E /* AvocadosApp.swift */,
-				341189A9271D553F00E9F70E /* ContentView.swift */,
+				346CD909274E455B001B985B /* View */,
+				346CD908274E4554001B985B /* Model */,
+				346CD907274E454D001B985B /* Data */,
 				341189AB271D554000E9F70E /* Assets.xcassets */,
 				341189B0271D554000E9F70E /* Info.plist */,
 				341189AD271D554000E9F70E /* Preview Content */,
@@ -67,6 +77,32 @@
 				341189AE271D554000E9F70E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		346CD907274E454D001B985B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		346CD908274E4554001B985B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		346CD909274E455B001B985B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				341189A9271D553F00E9F70E /* ContentView.swift */,
+				346CD90C274E4613001B985B /* AvocadosView.swift */,
+				346CD910274E4672001B985B /* RipeningStagesView.swift */,
+				346CD914274E46B2001B985B /* SettingsView.swift */,
+				346CD916274E46DD001B985B /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346CD915274E46B2001B985B /* SettingsView.swift in Sources */,
 				341189AA271D553F00E9F70E /* ContentView.swift in Sources */,
+				346CD917274E46DD001B985B /* AppView.swift in Sources */,
+				346CD911274E4672001B985B /* RipeningStagesView.swift in Sources */,
 				341189A8271D553F00E9F70E /* AvocadosApp.swift in Sources */,
+				346CD90D274E4613001B985B /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
