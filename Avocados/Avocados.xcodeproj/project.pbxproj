@@ -15,6 +15,7 @@
 		346CD911274E4672001B985B /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD910274E4672001B985B /* RipeningStagesView.swift */; };
 		346CD915274E46B2001B985B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD914274E46B2001B985B /* SettingsView.swift */; };
 		346CD917274E46DD001B985B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346CD916274E46DD001B985B /* AppView.swift */; };
+		346E7AC8274FA789002145FE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E7AC7274FA789002145FE /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		346CD910274E4672001B985B /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		346CD914274E46B2001B985B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		346CD916274E46DD001B985B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		346E7AC7274FA789002145FE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +98,12 @@
 		346CD909274E455B001B985B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				346CD916274E46DD001B985B /* AppView.swift */,
 				341189A9271D553F00E9F70E /* ContentView.swift */,
 				346CD90C274E4613001B985B /* AvocadosView.swift */,
 				346CD910274E4672001B985B /* RipeningStagesView.swift */,
 				346CD914274E46B2001B985B /* SettingsView.swift */,
-				346CD916274E46DD001B985B /* AppView.swift */,
+				346E7AC7274FA789002145FE /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				346CD911274E4672001B985B /* RipeningStagesView.swift in Sources */,
 				341189A8271D553F00E9F70E /* AvocadosApp.swift in Sources */,
 				346CD90D274E4613001B985B /* AvocadosView.swift in Sources */,
+				346E7AC8274FA789002145FE /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

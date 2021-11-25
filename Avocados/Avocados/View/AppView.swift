@@ -11,29 +11,27 @@ struct AppView: View {
     var body: some View {
         TabView {
             AvocadosView()
-                .tabItem({
+                .tabItem {
                     Image("tabicon-branch")
                     Text("Avocados")
-                })
-            
+                }
             ContentView()
-                .tabItem({
+                .tabItem{
                     Image("tabicon-book")
                     Text("Recepies")
-                })
-            
+                }
             RipeningStagesView()
-                .tabItem({
+                .tabItem{
                     Image("tabicon-avocado")
                     Text("Ripening")
-                })
+                }
             SettingsView()
-                .tabItem({
+                .tabItem{
                     Image("tabicon-settings")
                     Text("Settings")
-                })
-        }
-        .edgesIgnoringSafeArea(.all)
+                }
+        } //: TAB
+        .edgesIgnoringSafeArea(.top)
         .accentColor(Color.primary)
     }
 }
