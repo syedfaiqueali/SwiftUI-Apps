@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3405E0A42750BE4600D23573 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3405E0A32750BE4600D23573 /* DishesView.swift */; };
 		341189A8271D553F00E9F70E /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341189A7271D553F00E9F70E /* AvocadosApp.swift */; };
 		341189AA271D553F00E9F70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341189A9271D553F00E9F70E /* ContentView.swift */; };
 		341189AC271D554000E9F70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341189AB271D554000E9F70E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3405E0A32750BE4600D23573 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		341189A4271D553F00E9F70E /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		341189A7271D553F00E9F70E /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		341189A9271D553F00E9F70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				346CD910274E4672001B985B /* RipeningStagesView.swift */,
 				346CD914274E46B2001B985B /* SettingsView.swift */,
 				346E7AC7274FA789002145FE /* HeaderView.swift */,
+				3405E0A32750BE4600D23573 /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				346CD90D274E4613001B985B /* AvocadosView.swift in Sources */,
 				346E7ACA274FB36B002145FE /* HeaderModel.swift in Sources */,
 				346E7ACC274FB44B002145FE /* HeaderData.swift in Sources */,
+				3405E0A42750BE4600D23573 /* DishesView.swift in Sources */,
 				346E7AC8274FA789002145FE /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
