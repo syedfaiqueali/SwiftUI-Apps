@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341D06BB277F0ADE009C1BD0 /* Login_Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */; };
 		34578CE8277C7335001D4961 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578CE7277C7335001D4961 /* AnimationsApp.swift */; };
 		34578CEA277C7335001D4961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578CE9277C7335001D4961 /* ContentView.swift */; };
 		34578CEC277C7337001D4961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34578CEB277C7337001D4961 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Animations.swift; sourceTree = "<group>"; };
 		34578CE4277C7335001D4961 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34578CE7277C7335001D4961 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		34578CE9277C7335001D4961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				34578CFF277C7575001D4961 /* Example_NoAnimations.swift */,
 				34578D01277C7CD3001D4961 /* Animation Challange.swift */,
 				34578D03277C83F6001D4961 /* Animate_Alignment.swift */,
+				341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				34578CFD277C7495001D4961 /* BannerText.swift in Sources */,
 				34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */,
 				34578D00277C7575001D4961 /* Example_NoAnimations.swift in Sources */,
+				341D06BB277F0ADE009C1BD0 /* Login_Animations.swift in Sources */,
 				34578CE8277C7335001D4961 /* AnimationsApp.swift in Sources */,
 				34578D04277C83F6001D4961 /* Animate_Alignment.swift in Sources */,
 			);
