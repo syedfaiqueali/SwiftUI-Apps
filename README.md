@@ -8,7 +8,8 @@
   <li>Calculator</li>
   <li>Devote</li>
   <li>Fructus</li>
- <li>RGBullsEyes</li>
+  <li>RGBullsEyes</li>
+  <li>Animations</li>
 </ul>  
 
 
