@@ -18,6 +18,7 @@
 		34578D00277C7575001D4961 /* Example_NoAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578CFF277C7575001D4961 /* Example_NoAnimations.swift */; };
 		34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578D01277C7CD3001D4961 /* Animation Challange.swift */; };
 		34578D04277C83F6001D4961 /* Animate_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578D03277C83F6001D4961 /* Animate_Alignment.swift */; };
+		34DAB70027857DE10073E799 /* Animate_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB6FF27857DE10073E799 /* Animate_Opacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		34578CFF277C7575001D4961 /* Example_NoAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_NoAnimations.swift; sourceTree = "<group>"; };
 		34578D01277C7CD3001D4961 /* Animation Challange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Challange.swift"; sourceTree = "<group>"; };
 		34578D03277C83F6001D4961 /* Animate_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Alignment.swift; sourceTree = "<group>"; };
+		34DAB6FF27857DE10073E799 /* Animate_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Opacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				34578D01277C7CD3001D4961 /* Animation Challange.swift */,
 				34578D03277C83F6001D4961 /* Animate_Alignment.swift */,
 				341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */,
+				34DAB6FF27857DE10073E799 /* Animate_Opacity.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				341D06BB277F0ADE009C1BD0 /* Login_Animations.swift in Sources */,
 				34578CE8277C7335001D4961 /* AnimationsApp.swift in Sources */,
 				34578D04277C83F6001D4961 /* Animate_Alignment.swift in Sources */,
+				34DAB70027857DE10073E799 /* Animate_Opacity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
