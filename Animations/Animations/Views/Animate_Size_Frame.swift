@@ -24,13 +24,14 @@ struct Animate_Size_Frame: View {
             
             RoundedRectangle(cornerRadius: 20)
                 .foregroundColor(.blue)
-                .frame(width: change ? 100 : 350, height: change ? 100 : 200)
+                //.frame(width: change ? 100 : 350, height: change ? 100 : 200)
+                .padding()
                 .scaleEffect(change ? 0.5 : 1)
-                //.animation(.easeInOut, value: change)
+                .animation(.easeInOut, value: change)
             
             BannerText("Notice how this changes the layout of the screen. You may want to consider animating with the scaleEffect instead", .white, .blue)
         }
-        .animation(.easeInOut, value: change) //so that VStack also animate
+        //.animation(.easeInOut, value: change) //so that VStack also animate
     }
 }
 

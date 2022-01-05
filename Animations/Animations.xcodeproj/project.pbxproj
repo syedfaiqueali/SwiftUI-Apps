@@ -22,6 +22,7 @@
 		34DAB702278580F70073E799 /* Animate_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB701278580F70073E799 /* Animate_RotationEffect.swift */; };
 		34DAB704278586750073E799 /* Animate_RotationEffect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB703278586750073E799 /* Animate_RotationEffect_Anchors.swift */; };
 		34DAB70627858AB70073E799 /* Animate_Size_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */; };
+		34DAB70827858E380073E799 /* Animate_Scale_Effect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		34DAB701278580F70073E799 /* Animate_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect.swift; sourceTree = "<group>"; };
 		34DAB703278586750073E799 /* Animate_RotationEffect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect_Anchors.swift; sourceTree = "<group>"; };
 		34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Size_Frame.swift; sourceTree = "<group>"; };
+		34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Scale_Effect_Anchors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				34DAB701278580F70073E799 /* Animate_RotationEffect.swift */,
 				34DAB703278586750073E799 /* Animate_RotationEffect_Anchors.swift */,
 				34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */,
+				34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				34DAB70627858AB70073E799 /* Animate_Size_Frame.swift in Sources */,
 				34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */,
 				34578D00277C7575001D4961 /* Example_NoAnimations.swift in Sources */,
+				34DAB70827858E380073E799 /* Animate_Scale_Effect_Anchors.swift in Sources */,
 				341D06BB277F0ADE009C1BD0 /* Login_Animations.swift in Sources */,
 				34DAB702278580F70073E799 /* Animate_RotationEffect.swift in Sources */,
 				34578CE8277C7335001D4961 /* AnimationsApp.swift in Sources */,
