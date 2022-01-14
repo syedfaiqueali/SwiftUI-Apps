@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		341D06BB277F0ADE009C1BD0 /* Login_Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */; };
+		34225DD527919B8E00FB52D7 /* Excercise1_TheSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34225DD427919B8E00FB52D7 /* Excercise1_TheSetup.swift */; };
 		34578CE8277C7335001D4961 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578CE7277C7335001D4961 /* AnimationsApp.swift */; };
 		34578CEA277C7335001D4961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578CE9277C7335001D4961 /* ContentView.swift */; };
 		34578CEC277C7337001D4961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34578CEB277C7337001D4961 /* Assets.xcassets */; };
@@ -24,10 +25,12 @@
 		34DAB70627858AB70073E799 /* Animate_Size_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */; };
 		34DAB70827858E380073E799 /* Animate_Scale_Effect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */; };
 		34DAB70A2785931D0073E799 /* Animate_Rounded_Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB7092785931D0073E799 /* Animate_Rounded_Corners.swift */; };
+		34DAB70C27859A880073E799 /* Animate_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB70B27859A880073E799 /* Animate_Trim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		341D06BA277F0ADE009C1BD0 /* Login_Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Animations.swift; sourceTree = "<group>"; };
+		34225DD427919B8E00FB52D7 /* Excercise1_TheSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise1_TheSetup.swift; sourceTree = "<group>"; };
 		34578CE4277C7335001D4961 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34578CE7277C7335001D4961 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		34578CE9277C7335001D4961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Size_Frame.swift; sourceTree = "<group>"; };
 		34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Scale_Effect_Anchors.swift; sourceTree = "<group>"; };
 		34DAB7092785931D0073E799 /* Animate_Rounded_Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Rounded_Corners.swift; sourceTree = "<group>"; };
+		34DAB70B27859A880073E799 /* Animate_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Trim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34225DD327919B4000FB52D7 /* Excercise_1 */ = {
+			isa = PBXGroup;
+			children = (
+				34225DD427919B8E00FB52D7 /* Excercise1_TheSetup.swift */,
+			);
+			path = Excercise_1;
+			sourceTree = "<group>";
+		};
 		34578CDB277C7335001D4961 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,7 @@
 		34578CFE277C755C001D4961 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				34225DD327919B4000FB52D7 /* Excercise_1 */,
 				34578CFF277C7575001D4961 /* Example_NoAnimations.swift */,
 				34578D01277C7CD3001D4961 /* Animation Challange.swift */,
 				34578D03277C83F6001D4961 /* Animate_Alignment.swift */,
@@ -118,6 +131,7 @@
 				34DAB70527858AB70073E799 /* Animate_Size_Frame.swift */,
 				34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */,
 				34DAB7092785931D0073E799 /* Animate_Rounded_Corners.swift */,
+				34DAB70B27859A880073E799 /* Animate_Trim.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,11 +208,13 @@
 			files = (
 				34578CEA277C7335001D4961 /* ContentView.swift in Sources */,
 				34578CF9277C73F8001D4961 /* TitleText.swift in Sources */,
+				34225DD527919B8E00FB52D7 /* Excercise1_TheSetup.swift in Sources */,
 				34578CFB277C7449001D4961 /* SubtitleText.swift in Sources */,
 				34DAB704278586750073E799 /* Animate_RotationEffect_Anchors.swift in Sources */,
 				34578CFD277C7495001D4961 /* BannerText.swift in Sources */,
 				34DAB70627858AB70073E799 /* Animate_Size_Frame.swift in Sources */,
 				34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */,
+				34DAB70C27859A880073E799 /* Animate_Trim.swift in Sources */,
 				34DAB70A2785931D0073E799 /* Animate_Rounded_Corners.swift in Sources */,
 				34578D00277C7575001D4961 /* Example_NoAnimations.swift in Sources */,
 				34DAB70827858E380073E799 /* Animate_Scale_Effect_Anchors.swift in Sources */,
