@@ -20,6 +20,7 @@
 		34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578D01277C7CD3001D4961 /* Animation Challange.swift */; };
 		34578D04277C83F6001D4961 /* Animate_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34578D03277C83F6001D4961 /* Animate_Alignment.swift */; };
 		349514EF27A3D45300FF825A /* Excercise1_The_Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349514EE27A3D45300FF825A /* Excercise1_The_Rotation.swift */; };
+		34D7A67D27A4055300DEDCEF /* Trigger_Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7A67C27A4055300DEDCEF /* Trigger_Btn.swift */; };
 		34DAB70027857DE10073E799 /* Animate_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB6FF27857DE10073E799 /* Animate_Opacity.swift */; };
 		34DAB702278580F70073E799 /* Animate_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB701278580F70073E799 /* Animate_RotationEffect.swift */; };
 		34DAB704278586750073E799 /* Animate_RotationEffect_Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DAB703278586750073E799 /* Animate_RotationEffect_Anchors.swift */; };
@@ -44,6 +45,7 @@
 		34578D01277C7CD3001D4961 /* Animation Challange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Challange.swift"; sourceTree = "<group>"; };
 		34578D03277C83F6001D4961 /* Animate_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Alignment.swift; sourceTree = "<group>"; };
 		349514EE27A3D45300FF825A /* Excercise1_The_Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise1_The_Rotation.swift; sourceTree = "<group>"; };
+		34D7A67C27A4055300DEDCEF /* Trigger_Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trigger_Btn.swift; sourceTree = "<group>"; };
 		34DAB6FF27857DE10073E799 /* Animate_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Opacity.swift; sourceTree = "<group>"; };
 		34DAB701278580F70073E799 /* Animate_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect.swift; sourceTree = "<group>"; };
 		34DAB703278586750073E799 /* Animate_RotationEffect_Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect_Anchors.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				34DAB70727858E380073E799 /* Animate_Scale_Effect_Anchors.swift */,
 				34DAB7092785931D0073E799 /* Animate_Rounded_Corners.swift */,
 				34DAB70B27859A880073E799 /* Animate_Trim.swift */,
+				34D7A67C27A4055300DEDCEF /* Trigger_Btn.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				34DAB70627858AB70073E799 /* Animate_Size_Frame.swift in Sources */,
 				34578D02277C7CD3001D4961 /* Animation Challange.swift in Sources */,
 				34DAB70C27859A880073E799 /* Animate_Trim.swift in Sources */,
+				34D7A67D27A4055300DEDCEF /* Trigger_Btn.swift in Sources */,
 				349514EF27A3D45300FF825A /* Excercise1_The_Rotation.swift in Sources */,
 				34DAB70A2785931D0073E799 /* Animate_Rounded_Corners.swift in Sources */,
 				34578D00277C7575001D4961 /* Example_NoAnimations.swift in Sources */,
