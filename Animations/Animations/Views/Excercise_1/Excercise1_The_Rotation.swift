@@ -1,20 +1,20 @@
 //
-//  Excercise1_TheSetup.swift
+//  Excercise1_The_Rotation.swift
 //  Animations
 //
-//  Created by Faiq on 14/01/2022.
+//  Created by Faiq on 28/01/2022.
 //
 
 import SwiftUI
 
-struct Excercise1_TheSetup: View {
+struct Excercise1_The_Rotation: View {
     @State private var change = false
     
     var body: some View {
         VStack(spacing: 20) {
             TitleText("Excercise")
-            SubtitleText("The Setup")
-            BannerText("“The first thing you want to do is to build the end state of your animation. This will be WAY easier than building the begin state and trying to animate it together.", .white, .red)
+            SubtitleText("Rotate with Rotation Effect")
+            BannerText("Add a rotation modifier and change the degrees. It rotates depending on the change in variable", .white, .red)
             
             Spacer()
             
@@ -34,9 +34,11 @@ struct Excercise1_TheSetup: View {
                 }
                 .offset(x: 18)
             }
+            .rotationEffect(.degrees(change ? 0 : -90))
+            .foregroundColor(change ? .red : .orange)
             .opacity(change ? 1 : 0)
             .animation(.default, value: change)
-            .foregroundColor(change ? .red : .orange)
+            
             
             Spacer()
             
@@ -50,8 +52,8 @@ struct Excercise1_TheSetup: View {
     }
 }
 
-struct Excercise1_TheSetup_Previews: PreviewProvider {
+struct Excercise1_The_Rotation_Previews: PreviewProvider {
     static var previews: some View {
-        Excercise1_TheSetup()
+        Excercise1_The_Rotation()
     }
 }
