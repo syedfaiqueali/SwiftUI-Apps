@@ -11,7 +11,9 @@ import SwiftUI
 struct AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            Trigger_Segmented_Control()
+            //Trigger_Btn()
         }
     }
 }
