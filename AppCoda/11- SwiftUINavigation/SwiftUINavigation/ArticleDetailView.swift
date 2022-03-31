@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ArticleDetailView: View {
     
+    @Environment(\.presentationMode) var presentationMode
+    
     var article: Article
     
     var body: some View {
@@ -40,7 +42,19 @@ struct ArticleDetailView: View {
                 
             }
         }
+        .edgesIgnoringSafeArea(.top)
         .navigationBarTitle("", displayMode: .inline)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading:
+            Button(action: {
+            //Navigate to previous screen
+            self.presentationMode.wrappedValue.dismiss()
+            }, label: {
+                Image(systemName: "chevron.left.circle.fill")
+                    .font(.largeTitle)
+                    .foregroundColor(.white)
+            })
+        )
     }
 }
 
