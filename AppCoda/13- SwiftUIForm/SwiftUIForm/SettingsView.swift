@@ -9,21 +9,21 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    @State private var selectedOrder = 0
+    @State private var selectedOrder = DisplayOrderType.alphabetical
     @State private var showCheckInOnly = false
     @State private var maxPriceLevel = 5
     
     @Environment(\.presentationMode) var presentationMode
     
-    private var displayOrders = [ "Alphabetical", "Show Favorite First", "Show Check-i n First"]
+    var settingStore: SettingStore
     
     var body: some View {
         NavigationView {
             Form {
                 Section(header: Text("SORT PREFERENCE")) {
                     Picker(selection: $selectedOrder, label: Text("Display Order")) {
-                        ForEach(0 ..< displayOrders.count, id: \.self) {
-                            Text(self.displayOrders[$0])
+                        ForEach(DisplayOrderType.allCases, id: \.self) { orderType in
+                            Text(orderType.text)
                         }
                     }
                 }
@@ -53,7 +53,12 @@ struct SettingsView: View {
                         .foregroundColor(.black)
                 }),
                 trailing: Button(action: {
-                    //dismiss
+                    //1-Save values
+                    self.settingStore.showCheckInOnly = self.showCheckInOnly
+                    self.settingStore.displayOrder = self.selectedOrder
+                    self.settingStore.maxPriceLevel = self.maxPriceLevel
+                    
+                    //2- Dismiss
                     presentationMode.wrappedValue.dismiss()
                 }, label: {
                     Text("Save")
@@ -61,11 +66,16 @@ struct SettingsView: View {
                 })
             )
         }
+        .onAppear {
+            self.selectedOrder = self.settingStore.displayOrder
+            self.showCheckInOnly = self.settingStore.showCheckInOnly
+            self.maxPriceLevel = self.settingStore.maxPriceLevel
+        } //Load saved settings onAppear
     }
 }
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SettingsView(settingStore: SettingStore())
     }
 }

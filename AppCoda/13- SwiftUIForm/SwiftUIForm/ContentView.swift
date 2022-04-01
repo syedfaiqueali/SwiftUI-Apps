@@ -36,7 +36,7 @@ struct ContentView: View {
 
     @State private var selectedRestaurant: Restaurant?
     @State private var showSettings: Bool = false
-    
+    var settingStore: SettingStore
     var body: some View {
         NavigationView {
             List {
@@ -97,7 +97,7 @@ struct ContentView: View {
                 )
             )
             .sheet(isPresented: $showSettings) {
-                SettingsView()
+                SettingsView(settingStore: settingStore)
             }
             .navigationViewStyle(StackNavigationViewStyle())
             
@@ -127,7 +127,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(settingStore: SettingStore())
     }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52A1E9B627F6DFBB0063270F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1E9B527F6DFBB0063270F /* SettingsView.swift */; };
+		52A1E9BA27F6F9D10063270F /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1E9B927F6F9D10063270F /* SettingStore.swift */; };
 		F4741DD124ED67BE00F16863 /* SwiftUIFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4741DD024ED67BE00F16863 /* SwiftUIFormApp.swift */; };
 		F4741DD324ED67BE00F16863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4741DD224ED67BE00F16863 /* ContentView.swift */; };
 		F4741DD524ED67C100F16863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4741DD424ED67C100F16863 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		52A1E9B527F6DFBB0063270F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		52A1E9B927F6F9D10063270F /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
 		F4741DCD24ED67BE00F16863 /* SwiftUIForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4741DD024ED67BE00F16863 /* SwiftUIFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFormApp.swift; sourceTree = "<group>"; };
 		F4741DD224ED67BE00F16863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +58,11 @@
 			children = (
 				F4741DD024ED67BE00F16863 /* SwiftUIFormApp.swift */,
 				F4741DD224ED67BE00F16863 /* ContentView.swift */,
+				52A1E9B527F6DFBB0063270F /* SettingsView.swift */,
 				F4741DD424ED67C100F16863 /* Assets.xcassets */,
 				F4741DD924ED67C100F16863 /* Info.plist */,
 				F4741DD624ED67C100F16863 /* Preview Content */,
-				52A1E9B527F6DFBB0063270F /* SettingsView.swift */,
+				52A1E9B927F6F9D10063270F /* SettingStore.swift */,
 			);
 			path = SwiftUIForm;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A1E9B627F6DFBB0063270F /* SettingsView.swift in Sources */,
+				52A1E9BA27F6F9D10063270F /* SettingStore.swift in Sources */,
 				F4741DD324ED67BE00F16863 /* ContentView.swift in Sources */,
 				F4741DD124ED67BE00F16863 /* SwiftUIFormApp.swift in Sources */,
 			);
