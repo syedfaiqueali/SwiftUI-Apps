@@ -15,7 +15,7 @@ struct SettingsView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
-    var settingStore: SettingStore
+    @EnvironmentObject var settingStore: SettingStore
     
     var body: some View {
         NavigationView {
@@ -76,6 +76,6 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView(settingStore: SettingStore())
+        SettingsView().environmentObject(SettingStore())
     }
 }
